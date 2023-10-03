@@ -81,7 +81,7 @@ spec:
             secretKeyRef:
               key: dex-application-id
               name: quality-dashboard-secrets
-        image: quay.io/redhat-user-workloads/rhtap-qe-shared-tenant/quality-dashboard/backend-quality-dashboard@sha256:8b9d5d13669532a43ea3b285ba4dbc4075245d743a0c6810e68cac5f27e5b527
+        image: quay.io/redhat-user-workloads/rhtap-qe-shared-tenant/quality-dashboard/backend-quality-dashboard@sha256:cc2814ca07c69476a55dbf275b2f24e0840176556a731a9bf99be4bea3b9d582
         imagePullPolicy: Always
         name: quality-backend-dashboard
         ports:
