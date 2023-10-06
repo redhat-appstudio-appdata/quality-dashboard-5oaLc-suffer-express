@@ -33,7 +33,7 @@ spec:
         - /usr/local/bin/dex
         - serve
         - /etc/dex/cfg/config.yaml
-        image: quay.io/redhat-user-workloads/rhtap-qe-shared-tenant/quality-dashboard/dex-quality-dashboard@sha256:c5dc1ba6461ba68d7e72dd29e6f186f5b16cd370896652ea4d81709b2384b7b2
+        image: quay.io/redhat-user-workloads/rhtap-qe-shared-tenant/quality-dashboard/dex-quality-dashboard@sha256:711f5133885f90c57e350be11b9ee92c22e47184dab6ff1e68a9fffebaabb946
         name: dex
         ports:
         - containerPort: 5555
