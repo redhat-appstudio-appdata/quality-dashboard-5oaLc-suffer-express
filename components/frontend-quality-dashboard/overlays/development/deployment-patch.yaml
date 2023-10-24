@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-qe-shared-tenant/quality-dashboard/frontend-quality-dashboard@sha256:4d75b39ae128cb293b6484c68518f7e75f9b98b808f3c25f81f062550bc4aa5d
+      - image: quay.io/redhat-user-workloads/rhtap-qe-shared-tenant/quality-dashboard/frontend-quality-dashboard@sha256:f468d81b7e7d74c9ba63b93dde460bd3192fd6991182f0ca8c110b873b20639c
         name: quality-frontend-dashboard
         resources: {}
 status: {}
