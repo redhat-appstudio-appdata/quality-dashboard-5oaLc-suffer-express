@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-qe-shared-tenant/quality-dashboard/dex-quality-dashboard@sha256:19d50755ef14a8ef794922d128bc95fb99ff9918927d4a81207a3f57e3353f78
+      - image: quay.io/redhat-user-workloads/rhtap-qe-shared-tenant/quality-dashboard/dex-quality-dashboard@sha256:abccb4f0c3178dee0b14a75c060cea0adfd3639f07b7767feb15e49147d38d43
         name: dex
         resources: {}
 status: {}
